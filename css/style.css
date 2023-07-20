@@ -206,7 +206,7 @@
     margin: 30px;
     max-width: 1400px;
     min-height: 50px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: flex;
     justify-content: space-around;
     align-items: center;

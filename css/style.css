@@ -191,6 +191,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    
 }
 .online-games img{
     width: 100%;
@@ -202,6 +203,7 @@
     color: gray;
     font-size: 15px;
 }
+
 .optional{
     margin: 30px;
     max-width: 1400px;
@@ -289,9 +291,10 @@
 .border{
     border-radius: 30px;
     border: none;
+    padding: 5px;
 }
 .border:hover{
-    background-color: gray;
+    background-color: rgb(247, 241, 241);
     color: #e675c4;
     cursor: pointer;
     border: 2px solid red;
@@ -305,6 +308,58 @@
     justify-content: center;
     align-items: center;
 }
+.footer-container{
+    max-width: 1400px;
+    min-height: 50px;
+    border: 1px solid red; 
+    background-color: rgb(17, 4, 17);
+    color: white;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 10px;
+}
+.social-media-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 50px; 
+}
+.product-icon{
+    font-size: 25px;
+}
+.color-1{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+}
+.color-2{
+    background-color:rgb(17, 4, 17);
+    color: white;   
+}
+.footer-icon{
+    
+    color: #e675c4;   
+}
+.privacy-container, .terms-container{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+footer h6{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
 
 
 

@@ -5,6 +5,7 @@
     }
     .about-container{
         flex-direction: column;
+        text-align: center;
     }
     .section-container{
         flex-direction: column;
@@ -44,6 +45,9 @@
         position:relative;
         align-items:end;
         justify-content:left;
+    }
+    .privacy-container, .social-media-container, .terms-container{
+        flex-wrap: wrap;   
     }
 
 }
